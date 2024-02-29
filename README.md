@@ -1,4 +1,17 @@
-# Aplikasi Kasir Restoran
+# NAMA PEMBUAT : DEDE JURNAL KURNIADI
+# KELAS        : XII RPL
+# TAHUN AJARAN : 2023/2024
 
-Projek Website Kasir Restoran menggunakan PHP Native dan Bootstrap
-# KASIR_UKK_DEDE
+# UKK APLIKASI KASIR BERBASIS WEB
+
+Projek Website Kasir Restoran menggunakan PHP Native dan Bootstrap. Projek ini dibuat berdasarkan kegiatan UJI KOMPETENSI KEAHLIAN di SMKN 3 Pariaman.
+
+# AKSES APLIKASI KASIR
+
+ADMIN
+USERNAME  : ADMIN
+PASSWORD  : 123
+
+PETUGAS 
+USERNAME  : KASIR
+PASSWORD  : 123
