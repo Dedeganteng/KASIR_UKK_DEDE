@@ -1,0 +1,21 @@
+<?php
+include '../../koneksi.php'; // Menghubungkan dengan database
+
+// Mengambil data dari form
+$id_pelanggan = $_POST['id_pelanggan'];
+$nama_pelanggan = $_POST['nama_pelanggan'];
+$alamat = $_POST['alamat'];
+$telepon = $_POST['telepon'];
+
+// Membuat query untuk memperbarui data di database
+$query = "UPDATE tb_pelanggan SET nama_pelanggan = '$nama_pelanggan', alamat = '$alamat', telepon = '$telepon' WHERE id_pelanggan = '$id_pelanggan'";
+
+// Menjalankan query
+if (mysqli_query($kon, $query)) {
+    echo "Data pelanggan berhasil diperbarui";
+} else {
+    echo "Gagal memperbarui data pelanggan: " . mysqli_error($kon);
+}
+
+// Mengarahkan kembali ke halaman index.php dengan tab pelanggan
+header('location:../index.php?pelanggan');
